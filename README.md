@@ -8,6 +8,7 @@
 #### 编程作业1：线性回归 (Week 2)
 
 * 编程作业文档：[ex1.pdf](ProgrammingExercise/machine-learning-ex1/ex1.pdf)
+* 编程作业文档翻译：[ex1_Chinese.pdf](ProgrammingExercise/machine-learning-ex1/ex1_Chinese.md)
 * 代码：[ex1](ProgrammingExercise/machine-learning-ex1/ex1/)
 
 #### 编程作业2：逻辑回归 (Week 3)
