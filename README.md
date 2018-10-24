@@ -7,12 +7,16 @@
 
 #### 编程作业1：线性回归 (Week 2)
 
-* 编程作业文档：[ex1.pdf](ProgrammingExercise/machine-learning-ex1/ex1.pdf)
-* 编程作业文档翻译：[ex1_Chinese.pdf](ProgrammingExercise/machine-learning-ex1/ex1_Chinese.md)
-* 代码：[ex1](ProgrammingExercise/machine-learning-ex1/ex1/)
+* [编程作业文档](ProgrammingExercise/machine-learning-ex1/ex1.pdf)
+* [编程作业文档中文翻译](ProgrammingExercise/machine-learning-ex1/ex1_Chinese.md)
+* [编程作业代码](ProgrammingExercise/machine-learning-ex1/ex1/)
 
 #### 编程作业2：逻辑回归 (Week 3)
 
-* 编程作业文档：[ex2.pdf](ProgrammingExercise/machine-learning-ex2/ex2.pdf)
-* 代码：[ex2](ProgrammingExercise/machine-learning-ex2/ex2/)
+* [编程作业文档](ProgrammingExercise/machine-learning-ex2/ex2.pdf)
+* [编程作业代码](ProgrammingExercise/machine-learning-ex2/ex2/)
+
+#### 编程作业3：多分类和神经网络(Week 4)
+* [编程作业文档](ProgrammingExercise/machine-learning-ex3/ex3.pdf)
+* [编程作业代码](ProgrammingExercise/machine-learning-ex3/ex3/)
 
