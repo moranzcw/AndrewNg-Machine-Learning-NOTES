@@ -130,7 +130,7 @@ Intuitively, this could be thought of as:
 
 repeat until convergence:
 
-$\theta_j := \theta_j - \alpha [\text{Slope of tangent aka derivative in j dimension}]$
+$\theta_j := \theta_j - \alpha [\text{Slope of tangent aka derivative in j dimension}]​$
 
 
 
