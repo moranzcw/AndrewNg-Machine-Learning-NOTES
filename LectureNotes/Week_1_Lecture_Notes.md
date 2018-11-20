@@ -68,9 +68,9 @@ Univariate linear regression is used when you want to predict a **single output*
 
 Our hypothesis function has the general form:
 
-$ \hat{y} = h_\theta(x) = \theta_0 + \theta_1 $
+$ \hat{y} = h_\theta(x) = \theta_0 + \theta_1 x$
 
-Note that this is like the equation of a straight line. We give to $h_\theta(x)$ values for $\theta_0$ and $\theta_1$ to get our estimated output $\hat{y}$. In other words, we are trying to create a function called $h_\theta$ that is trying to map our input data (the x's) to our output data (the y's).
+Note that this is like the equation of a straight line. We give to $h_\theta(x)​$ values for $\theta_0​$ and $\theta_1​$ to get our estimated output $\hat{y}​$. In other words, we are trying to create a function called $h_\theta​$ that is trying to map our input data (the x's) to our output data (the y's).
 
 #### Example:
 

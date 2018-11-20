@@ -113,7 +113,7 @@ Each layer gets its own matrix of weights, $\Theta^{(j)}$.
 
 The dimensions of these matrices of weights is determined as follows:
 
-\text{If network has $s_j$ units in layer $j$ and $s_{j+1}$ units in layer $j+1$, then $\Theta^{(j)}$ will be of dimension $s_{j+1} \times (s_j + 1)$.}If network has sj units in layer j and sj+1 units in layer j+1, then Θ(j) will be of dimension sj+1×(sj+1).
+$\text{If network has $s_j$ units in layer $j$ and $s_{j+1}$ units in layer $j+1$, then $\Theta^{(j)}$ will be of dimension $s_{j+1} \times (s_j + 1)$.}$
 
 The +1 comes from the addition in $\Theta^{(j)}$ of the "bias nodes," $x_0$ and $\Theta_0^{(j)}$. In other words the output nodes will not include the bias nodes while the inputs will.
 
@@ -205,7 +205,7 @@ Let's set our first theta matrix as:
 
 $$\Theta^{(1)} =[−30\ 20\ 20]$$
 
-This will cause the output of our hypothesis to only be positive if both x_1x1 and x_2x2 are 1. In other words:
+This will cause the output of our hypothesis to only be positive if both $x_1$ and $x_2$ are 1. In other words:
 $$
 h\Theta(x)=g(−30+20x_1+20x_2) \\
 x_1=0\quad and\quad x_2=0\quad then\quad g(−30)\approx 0 \\
@@ -218,7 +218,7 @@ So we have constructed one of the fundamental operations in computers by using a
 
 ## Examples and Intuitions II
 
-The $Θ^(1)​$ matrices for AND, NOR, and OR are:
+The $Θ^{(1)}$ matrices for AND, NOR, and OR are:
 
 $$
 \begin{align*}
@@ -252,7 +252,7 @@ $$
 \end{bmatrix}
 $$
 
-For the transition between the second and third layer, we'll use a Θ^(2)Θ(2) matrix that uses the value for OR:
+For the transition between the second and third layer, we'll use a $Θ^{(2)}$matrix that uses the value for OR:
 
 $$
 \Theta^{(1)}=
@@ -297,7 +297,7 @@ h_\Theta(x) =
 \begin{bmatrix}0 \\ 0 \\ 1 \\ 0 \end{bmatrix}
 $$
 
-In which case our resulting class is the third one down, or h_\Theta(x)_3hΘ(x)3.
+In which case our resulting class is the third one down, or $h_\Theta(x)_3$.
 
 We can define our set of resulting classes as y:
 
