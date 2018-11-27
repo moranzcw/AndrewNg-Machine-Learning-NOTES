@@ -199,7 +199,7 @@ x_1=1\quad and\quad x_2=1\quad then\quad g(10)\approx 1
 $$
 现在我们使用了一个小的神经网络构造了计算机的基本操作之一，而不是使用实际的与门。神经网络也可以用来模拟所有其他逻辑门。
 
-## 示例和直觉 I - Examples and Intuitions II
+## 示例和直觉 II - Examples and Intuitions II
 
 与，或，非门对应的 $Θ^{(1)}$ 矩阵:
 $$
