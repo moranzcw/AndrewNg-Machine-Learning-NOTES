@@ -40,3 +40,8 @@
 
 * 作业指导：[ex3.pdf](ProgrammingExercise/machine-learning-ex3/ex3.pdf)
 * 代码：[ex3](ProgrammingExercise/machine-learning-ex3/ex3/)
+
+#### Week 5：编程作业4 - 神经网络：学习
+
+* 作业指导：[ex4.pdf](ProgrammingExercise/machine-learning-ex4/ex4.pdf)
+* 代码：[ex4](ProgrammingExercise/machine-learning-ex4/ex4/)
