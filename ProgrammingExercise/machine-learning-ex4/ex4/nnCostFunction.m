@@ -62,23 +62,48 @@ Theta2_grad = zeros(size(Theta2));
 %               and Theta2_grad from Part 2.
 %
 
+%% 代价函数
+
+% y转换为矩阵
+y_vec = zeros(num_labels, m);
+for i = 1:m
+    y_vec(y(i),i) = 1;
+end
+
+% 计算假设函数h_theta
+a_1 = [ones(1,m);X']; % 添加偏置1，维度401*5000
+
+z_2 = Theta1 * a_1; % 维度25*5000
+a_2 = [ones(1,m);sigmoid(z_2)]; % 添加偏置1，维度26*5000
+
+z_3 = Theta2 * a_2; % 维度10*5000
+a_3 = sigmoid(z_3); % 添加偏置1，维度10*5000
+h_theta = a_3;
+
+% 计算代价函数
+J = sum(sum(-y_vec .* log(h_theta) - (1-y_vec) .* log(1 - h_theta)))/m;
+
+% 正则项
+J = J + lambda * sum(sum(Theta1(:,2:end).^2)) / (2*m);
+J = J + lambda * sum(sum(Theta2(:,2:end).^2)) / (2*m);
 
 
+%% 反向传播
 
+epsilon_3 = a_3 - y_vec; % 维度10*5000
+epsilon_2 = Theta2(:,2:end)' * epsilon_3 .* sigmoidGradient(z_2); % 维度 25*5000
 
+delta_2 = epsilon_3*a_2' ./ m;  % 维度10*26
+delta_1 = epsilon_2*a_1' ./ m; % 维度25*401
 
+% 正则项
+Theta1(:,1) = 0;
+Theta2(:,1) = 0;
+regularization_1 = lambda*Theta1/m;
+regularization_2 = lambda*Theta2/m;
 
-
-
-
-
-
-
-
-
-
-
-
+Theta1_grad = delta_1 + regularization_1;
+Theta2_grad = delta_2 + regularization_2;
 
 % -------------------------------------------------------------
 
