@@ -45,3 +45,8 @@
 
 * 作业指导：[ex4.pdf](ProgrammingExercise/machine-learning-ex4/ex4.pdf)
 * 代码：[ex4](ProgrammingExercise/machine-learning-ex4/ex4/)
+
+#### Week 6：编程作业5 - 正则化线性回归，偏差 v.s. 方差
+
+* 作业指导：[ex5.pdf](ProgrammingExercise/machine-learning-ex5/ex5.pdf)
+* 代码：[ex5](ProgrammingExercise/machine-learning-ex5/ex5/)
