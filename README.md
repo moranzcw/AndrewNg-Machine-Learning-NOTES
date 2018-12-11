@@ -50,3 +50,8 @@
 
 * 作业指导：[ex5.pdf](ProgrammingExercise/machine-learning-ex5/ex5.pdf)
 * 代码：[ex5](ProgrammingExercise/machine-learning-ex5/ex5/)
+
+#### Week 7：编程作业6 - 支持向量机
+
+* 作业指导：[ex6.pdf](ProgrammingExercise/machine-learning-ex6/ex6.pdf)
+* 代码：[ex6](ProgrammingExercise/machine-learning-ex6/ex6/)
